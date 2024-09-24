@@ -1,118 +1,49 @@
+
+
 *{
     margin: 0;
     padding: 0;
 }
 
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
 header{
     display: flex;
+    grid: row;
     gap: 1px;
     height: 7vh;
-    background-color: rgba(10, 10, 10, 0.788);
+    width: 100vw;
+
+  background-color: rgba(10, 10, 10, 0.788);
+   
+
 }
- 
+
 header > nav {
     display: flex;
+    grid: row;
     gap: 40px;
-    margin-left: 37vw;
+   margin-left: 37vw;
 }
- 
+
 header > nav > a {
     text-underline-offset: 10px;
     font-size: 22px;
     color: rgb(230, 230, 230);
     padding: 10px;
-   
+    
 }
-
 header > nav > a:hover{
     color: #d615dd98;
 }
- 
+
 main {
     height: auto;
-    max-width: 100vw;
+    width: 100vw;
 }
-
-
-
-/* menu pagina */
-
-#titelMenu {
-    text-align: center;
-    margin: 10px;
-}
-
-.menuItems {
-    display: flex;
-    gap: 50px;
-    width: 200px;
-    margin-top: 25px;
-    margin-left: 45px;
-}
-
-#fotoGerechten {
-    width: auto;
-    height: 200px;
-    border-radius: 5px;
-}
-
-/* Gallery */
-
-
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(2, 1fr); 
-    gap: 50px;
-    margin-top: 40px;
-    margin-left: 45px;
-    margin-right: 45px;
-}
-  
-.gallery-item {
-    overflow: hidden;
-}
-  
-.gallery-item img {
-    width: auto;
-    height: 250px;
-}
-
-@media (max-width: 768px) {
-    header {
-        width: auto;
-    }
-    
-    /*responsive menu*/
-    .menuItems {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-    }
-
-    #fotoGerechten {
-        height: 200px;
-        width: auto;
-        border-radius: 10px;
-    }
-
-    /*responsive gallery*/
-    .gallery {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(5, 1fr);
-        margin-top: 20px;
-    }
-            
-    .gallery-item img {
-        height: 250px;
-        width: 100%;
-        border-radius: 20px;
-    }
-}
-
-/* Jeremiah */ 
-
 .containerlogo{
     height: 10vh;
     width: 14vw;
