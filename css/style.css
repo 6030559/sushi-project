@@ -473,8 +473,7 @@ main {
 footer{
     
     height: 5vh;
-    width: 100vw;
-        display: none;
+    display: none;
     /* background-color: red; */
 
 }
@@ -482,8 +481,7 @@ footer{
 footer > p{
     
     height: 5vh;
-    width: 100vw;
     justify-content: center;
    
 }
-}
+}   
