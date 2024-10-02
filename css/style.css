@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+/* header */
+
 header{
     display: flex;
     gap: 1px;
@@ -28,15 +30,50 @@ header > nav > a:hover{
     color: #d615dd98;
 }
  
+/* main */
+
 main {
     height: auto;
     max-width: 100vw;
 }
 
 
+/* footer */
 
+footer {
+    height: 7vh;
+    border-top: 1px solid black;
+}
 
+footer > section {
+    display: flex;
+    align-items: center;
+    /* gap: 30vw; */
+}
 
+.footer_img > img{
+    width: auto;
+    height: 40px;
+    margin-top: 6px;
+    margin-left: 10px;
+}
+
+.footer_tekst > p {
+    margin-left: 40vw;
+}
+
+.footer_link {
+    margin-left: 25vw;
+}
+
+.footer_link > a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer_link > a:hover {
+    color: blue;
+}
 /* menu pagina */
 
 #titelMenu {
@@ -50,6 +87,7 @@ main {
     width: 200px;
     margin-top: 25px;
     margin-left: 45px;
+    margin-bottom: 50px;
 }
 
 #fotoGerechten {
@@ -307,22 +345,6 @@ main {
     letter-spacing: 1px;
    
 }
-
-footer{
-    
-}
-
-footer > p{
-    
-    height: 5vh;
-    width: 100vw;
-    justify-content: center;
-    /* background-color: red; */
-}
-
-
-
-
 
 @media screen and (max-width: 480px) {
     header{
