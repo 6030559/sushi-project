@@ -306,9 +306,42 @@ main {
    
 }
 
+.icons{
+    display: flex;
+    justify-content: center;
+}
+
+.icons a{
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+.icons a i{
+    font-size: 25px;
+}
+
+.footernav ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+.footernav ul li a {
+    color: #383f47;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.footerboden{
+    margin-top: 2px;
+    text-align: center;
+}
+
 footer{
     
-    height: 5vh;
+    height: 10vh;
     width: 100vw;
     
     /* background-color: red; */
@@ -471,6 +504,10 @@ main {
     border-radius: 5px;
   
 }
+
+
+
+
 footer{
     
     height: 5vh;
