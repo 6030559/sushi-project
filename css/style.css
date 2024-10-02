@@ -84,7 +84,7 @@ footer > section {
 .menuItems {
     display: flex;
     gap: 50px;
-    width: 200px;
+    width: 100px;
     margin-top: 25px;
     margin-left: 45px;
     margin-bottom: 50px;
@@ -417,8 +417,9 @@ header > nav > a:hover{
 }
 .textcover2{
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
+    width: 90vw;
 }
 
 
@@ -544,4 +545,105 @@ button {
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
+}
+.menuItems {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+
+#fotoGerechten {
+    height: 200px;
+    width: auto;
+    border-radius: 10px;
+}
+
+/*responsive gallery*/
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    margin-top: 20px;
+}
+        
+.gallery-item img {
+    height: 250px;
+    width: 100%;
+    border-radius: none;
+}
+.row3{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1px;
+    /* overflow: hidden; */
+    margin-top: 5vh;
+}
+
+.row3 .imgwrapper{
+    overflow: hidden;
+}
+
+.row3 .imgwrapper img{
+    transition: 0.3s;
+    /* object-fit: cover; */
+}
+
+.row3 .imgwrapper:hover img {
+    transform: scale(1.1);
+}
+
+.row3 .imgwrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding-left: 5vw;
+}
+
+
+
+  .row3 .contentwarp span.textwarp{
+    display: block;
+    font-size: 20px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+
+ .row3 .contentwarp span.textwarp span {
+    display: inline-block;
+    background: #383f47;
+    width: 20vw;
+    height: 5px;
+
+    
+}
+
+
+.row3 .contentwarp h2 {
+    font-size: 30px;
+    color: #383f47;
+    padding-bottom: 20px;
+}
+
+.row3 .contentwarp p {
+    font-size: 19px;
+    line-height: 20px;
+    padding-bottom: 40px;
+    width: 34vw;
+}
+
+.row3 .contentwarp a {
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #383f47;
+    color: white;
+    padding: 15px 40px;
+    letter-spacing: 1px;
+   
+}
 }
