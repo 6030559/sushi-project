@@ -546,17 +546,6 @@ button {
     font-size: 16px;
     cursor: pointer;
 }
-.menuItems {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-}
-
-#fotoGerechten {
-    height: 200px;
-    width: auto;
-    border-radius: 10px;
-}
 
 /*responsive gallery*/
 .gallery {
@@ -646,4 +635,4 @@ button {
     letter-spacing: 1px;
    
 }
-}
+
