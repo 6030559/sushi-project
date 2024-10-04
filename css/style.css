@@ -40,39 +40,53 @@ main {
 
 /* footer */
 
-footer {
-    height: 7vh;
-    border-top: 1px solid black;
-}
-
-footer > section {
+.icons{
     display: flex;
-    align-items: center;
-    /* gap: 30vw; */
+    justify-content: center;
 }
-
-.footer_img > img{
-    width: auto;
-    height: 40px;
-    margin-top: 6px;
-    margin-left: 10px;
-}
-
-.footer_tekst > p {
-    margin-left: 40vw;
-}
-
-.footer_link {
-    margin-left: 25vw;
-}
-
-.footer_link > a {
+ 
+.icons a{
     text-decoration: none;
-    color: black;
+    padding: 10px;
 }
-
-.footer_link > a:hover {
-    color: blue;
+ 
+ 
+.icons a i{
+    font-size: 25px;
+}
+ 
+.footernav ul {
+    display: flex;
+    justify-content: center;
+ 
+}
+ 
+.footernav ul li a {
+    color: #383f47;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+ 
+.footerboden{
+    margin-top: 2px;
+    text-align: center;
+}
+ 
+footer{
+   
+    height: 10vh;
+    width: 100vw;
+   
+    /* background-color: red; */
+}
+ 
+footer > p{
+   
+    height: 5vh;
+    width: 100vw;
+    justify-content: center;
+    /* background-color: red; */
 }
 /* menu pagina */
 
@@ -344,55 +358,6 @@ footer > section {
     padding: 15px 40px;
     letter-spacing: 1px;
    
-}
-
-.icons{
-    display: flex;
-    justify-content: center;
-}
-
-.icons a{
-    text-decoration: none;
-    padding: 10px;
-}
-
-
-.icons a i{
-    font-size: 25px;
-}
-
-.footernav ul {
-    display: flex;
-    justify-content: center;
-
-}
-
-.footernav ul li a {
-    color: #383f47;
-    margin: 20px;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-.footerboden{
-    margin-top: 2px;
-    text-align: center;
-}
-
-footer{
-    
-    height: 10vh;
-    width: 100vw;
-    
-    /* background-color: red; */
-}
-
-footer > p{
-    
-    height: 5vh;
-    width: 100vw;
-    justify-content: center;
-    /* background-color: red; */
 }
 
 @media screen and (max-width: 480px) {
