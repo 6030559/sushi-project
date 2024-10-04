@@ -395,10 +395,6 @@ footer > p{
     /* background-color: red; */
 }
 
-
-
-
-
 @media screen and (max-width: 480px) {
     header{
         display: flex;
@@ -692,4 +688,3 @@ button {
     letter-spacing: 1px;
    
 }
-
