@@ -565,27 +565,6 @@ button {
     cursor: pointer;
 }
 
-/*responsive gallery*/
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    margin-top: 20px;
-}
-        
-.gallery-item img {
-    height: 250px;
-    width: 100%;
-    border-radius: none;
-}
-.row3{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap: 1px;
-    /* overflow: hidden; */
-    margin-top: 5vh;
-}
-
 .row3 .imgwrapper{
     overflow: hidden;
 }
