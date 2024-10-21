@@ -140,20 +140,23 @@ footer > p{
     /*responsive menu*/
     .menuItems {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        align-items: center;
+        position: relative;
+        left: 55px;
     }
 
     #fotoGerechten {
-        height: 200px;
-        width: auto;
+        height: auto;
+        width: 250px;
         border-radius: 10px;
     }
 
     /*responsive gallery*/
     .gallery {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(5, 1fr);
         margin-top: 20px;
     }
@@ -161,12 +164,51 @@ footer > p{
     .gallery-item img {
         height: 250px;
         width: 100%;
-        border-radius: 20px;
+        border-radius: 5px;
     }
 }
 
 /* Jeremiah */ 
 
+.container2{
+    height: 50vh;
+    width: 100vw;
+    margin-top: 10vh;
+    align-items: center;
+    justify-content: center;
+}
+.formrg{
+    padding: 20px;
+    width: 20vw;
+    border: 1px solid rgb(185, 24, 206);
+    
+}
+.inputbox{
+    margin-top: 20px;
+    
+}
+
+.container3{
+    position: relative;
+    justify-content: center;
+    align-content: center ;
+    height: 40vh;
+    width: 100vw;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+  
+}
+.container3 > form {
+    align-items: center;
+    
+
+}
+#title {
+    align-items: center;
+}
 .containerlogo{
     height: 10vh;
     width: 14vw;
@@ -285,6 +327,14 @@ footer > p{
 }
 
 .row3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1px;
+    /* overflow: hidden; */
+    margin-top: 18vh;
+}
+
+.row4{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1px;
@@ -518,6 +568,72 @@ footer > p{
     justify-content: center;
    
 }
+.container2{
+    height: 50vh;
+    width: 100vw;
+    margin-top: 10vh;
+    align-items: center;
+    justify-content: center;
+}
+.formrg{
+    padding: 20px;
+    width: 20vw;
+    border: 1px solid rgb(185, 24, 206);
+    
+}
+.inputbox{
+    margin-top: 20px;
+    
+}
+
+.container3{
+    position: relative;
+    justify-content: center;
+    align-content: center ;
+    height: 40vh;
+    width: 50vw;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 1 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+ 
+}
+.container3 > form {
+    align-items: center;
+    
+
+}
+#title {
+    align-items: center;
+}
+.containerlogo{
+    height: 10vh;
+    width: 14vw;
+    margin-left: 40vw;
+    margin-top: 1vw;
+}
+#logomain{
+    width: 30vw;
+}
+
+.paratext{
+    display: none;
+}
+.aboutimg{
+    width: 60vw;
+    display: none;
+    
+}
+
+.row4{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1px;
+    /* overflow: hidden; */
+    margin-top: 0vh;
+    display: none;
+}
 }   
 
 
@@ -624,6 +740,84 @@ button {
 }
 
 .row3 .contentwarp a {
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #383f47;
+    color: white;
+    padding: 15px 40px;
+    letter-spacing: 1px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+.row4 .imgwrapper{
+    overflow: hidden;
+}
+
+.row4 .imgwrapper img{
+    transition: 0.3s;
+    /* object-fit: cover; */
+}
+
+.row4 .imgwrapper:hover img {
+    transform: scale(1.1);
+}
+
+.row4 .imgwrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding-left: 5vw;
+}
+
+
+
+  .row4 .contentwarp span.textwarp{
+    display: block;
+    font-size: 20px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+
+ .row4 .contentwarp span.textwarp span {
+    display: inline-block;
+    background: #383f47;
+    width: 20vw;
+    height: 5px;
+
+    
+}
+
+
+.row4 .contentwarp h2 {
+    font-size: 30px;
+    color: #383f47;
+    padding-bottom: 20px;
+}
+
+.row4 .contentwarp p {
+    font-size: 19px;
+    line-height: 20px;
+    padding-bottom: 40px;
+    width: 34vw;
+}
+
+.row4 .contentwarp a {
     text-decoration: none;
     text-transform: uppercase;
     background: #383f47;
