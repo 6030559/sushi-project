@@ -100,6 +100,8 @@ footer > p{
     margin-bottom: 50px;
 }
 
+/* hier grid area's toevoegen voor menu pagina */
+
 #fotoGerechten {
     width: auto;
     height: 200px;
@@ -686,7 +688,7 @@ button {
     grid-template-rows: repeat(2, auto);
     gap: 20px;
     padding: 25px;
-    max-width: 1200px;
+    width: 1200px;
     margin: auto;
 }
 
@@ -698,4 +700,63 @@ button {
 
 .arrangementItem:hover {
    transition: 0.3s;
+}
+
+/* review pagina */
+
+.layoutReview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.reviewContainer {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #d615dd98;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: rgb(72, 14, 126);
+}
+
+.reviews {
+    margin-top: 20px;
+}
+
+.review {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 4px;
 }
