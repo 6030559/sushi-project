@@ -87,22 +87,24 @@ footer > p{
 
 #titelMenu {
     text-align: center;
-    margin: 10px;
+    margin: 10px ;
 }
 
 .menuItems {
-    display: flex;
-    gap: 50px;
-    width: 100px;
-    margin-top: 25px;
-    margin-left: 45px;
-    margin-bottom: 50px;
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-area: 
+    "crispySushi, crispySushi, crispySushi, crispySushi, crispySushi, crispySushi"
+    "pokebowlsSushi, pokebowlsSushi, pokebowlsSushi, pokebowlsSushi, pokebowlsSushi, pokebowlsSushi"
+    "softShells, softShells, softShells, softShells, softShells, softShells"
+    "drinkSushi, drinkSushi, drinkSushi, drinkSushi, drinkSushi, drinkSushi";
 }
 
-/* hier grid area's toevoegen voor menu pagina */
 
 #fotoGerechten {
-    width: auto;
+    width: 100%;
     height: 200px;
     border-radius: 5px;
 }
@@ -130,30 +132,32 @@ footer > p{
 }
 
 @media (max-width: 768px) {
-    header {
-        width: auto;
+    header > nav {
+        display: flex;
+        margin-left: 75px;
+        gap: 15px;
     }
     
     /*responsive menu*/
     .menuItems {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(1, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
         align-items: center;
         position: relative;
-        left: 55px;
+        left: 20px;
     }
 
     #fotoGerechten {
         height: auto;
-        width: 250px;
+        width: 200px;
         border-radius: 10px;
     }
 
     /*responsive gallery*/
     .gallery {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(5, 1fr);
         margin-top: 20px;
     }
@@ -163,6 +167,59 @@ footer > p{
         width: 100%;
         border-radius: 5px;
     }
+
+    /* about us */
+
+    .postionFix {
+        max-width: 768px;
+    }
+
+    #text1 {
+        margin-left: 150px;
+        font-size: 18px; 
+        padding-top: 2vh; 
+    }
+
+    .containerinfo {
+        margin-top: 10vh; 
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .containerbox {
+        width: 80vw;
+        margin-bottom: 10px; 
+    }
+
+    .containerinfo img {
+        width: 70vw; 
+    }
+
+    .textcover, .textcover2 {
+        font-size: 16px; 
+        text-align: center; 
+    }
+
+    .row4 {
+        flex-direction: column; 
+        text-align: center; 
+    }
+
+    .aboutimg {
+        width: 100%; 
+        height: auto; 
+    }
+
+    .paratext {
+        font-size: 16px;
+        margin-left: 50px;
+    }
+
+    .drinkbtn2 {
+        padding: 10px 15px;
+        font-size: 18px;
+    }
+    /* het was best lastig om de home en about us goed responsive te krijgen*/
 }
 
 /* Jeremiah */ 
@@ -1078,6 +1135,5 @@ button:hover {
     background: #383f47;
     color: white;
     padding: 15px 40px;
-    letter-spacing: 1px;
-   
+    letter-spacing: 1px; 
 }

@@ -14,10 +14,10 @@
 <body>
     <?php include('header.php') ?>
 
-    <main>
-<section class="containerlogo"><img id="logomain" src="image/Sushi-removebg-preview.png" alt=""></section>
-<section class="containermainfoto">
-<section class="cover">
+    <main class="postionFix">
+    <section class="containerlogo"><img id="logomain" src="image/Sushi-removebg-preview.png" alt=""></section>
+    <section class="containermainfoto">
+    <section class="cover">
      <h2 class="textcover">ABOUT US </a></h2>
      <p class="textcover2">At Us Sushi, we bring the authentic taste <br> of Japan to your table, blending traditional techniques with modern <br> flavors. Our mission is to provide an unforgettable dining experience that celebrates the artistry of sushi-making.   <br><br>     <a href="" class="drinkbtn2">order now</a></p>
      
