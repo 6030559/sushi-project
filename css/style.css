@@ -170,6 +170,110 @@ footer > p{
 
 /* Jeremiah */ 
 
+
+
+
+/* drinkpage*/
+.drinkspage{
+    width: 100%;
+    padding: 70px 0;
+    margin-top: 18vh;
+}
+
+.drinkspage h1 {
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    
+}
+
+
+.drinkspage h1 span {
+    color: #c259cf;
+   
+  
+}
+
+
+.drinkspage .drinkbox{
+    width: 95%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-row: 2fr;
+    
+}
+
+.drinkspage .drinkbox .drinkcard{
+    width: 325px;
+    height: 480px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.418);
+}
+
+.drinkspage .drinkbox .drinkcard .drinkimg {
+    width: 300px;
+    height: 245px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+
+.drinkspage .drinkbox .drinkcard .drinkimg .im2{
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+ object-position: center;
+}
+
+
+.drinkspage .drinkbox .drinkcard .info h2 {
+    width: 60%;
+    text-align: center;
+    margin: 10px auto 10px auto;
+    font-size: 25px;
+    color: #383f47;
+    
+}
+
+
+.drinkspage .drinkbox .drinkcard .info p {
+    text-align: center;
+    margin-top: 8px;
+    line-height: 21px;
+
+}
+
+.drinkspage .drinkbox .drinkcard .info h3{
+    text-align: center;
+    margin-top: 10px;
+   
+}
+
+.drinkspage .drinkbox .drinkcard .info .drinkbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    background: #383f47;
+    padding:  10px 20px;
+    margin: 0 80px;
+    transition: 0.3s;
+}
+
+
+.drinkbtn2{
+    background: #383f47;
+    padding:  8px 10px;
+    text-decoration: none;
+    color: white;
+}
+
 .container2{
     height: 50vh;
     width: 100vw;
