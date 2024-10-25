@@ -7,14 +7,8 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="menu.html">Menu</a>
-            <a href="about us.html">About us</a>
-            <a href="gallery.html">Gallery</a>
-        </nav>
-    </header>
+    <?php include('header.php') ?>
+
 
     <main>
         <div class="layoutReview">
@@ -54,27 +48,7 @@
         </div>
     </main>
 
-    <footer>
-        <section class="footercontainer">
-            <section class="icons">
-                <a href=""><i class="fa-brands fa-facebook"></i></a>
-                <a href=""><i class="fa-brands fa-instagram"></i></a>
-                <a href=""><i class="fa-brands fa-twitter"></i></a>
-                <a href=""><i class="fa-brands fa-google-plus"></i></a>
-            </section>
-            <section class="footernav">
-                <ul>
-                    <li><a href="">Adres: Rijswijklaan 129</a></li>
-                    <li><a href="">Openingstijden: Ma-Za van 13:00 - 21:00</a></li>
-                    <li><a href="">Meer informatie</a></li>
-                    <li><a href="avg.html">Privacy</a></li>
-                    <li><a href="reserveren.html">Maak hier een reservering aan</a></li>
-                </ul>
-            </section>
-            <section class="footerboden">
-                <p>Copyright &copy; 2024;</p>
-            </section>
-        </section>
-    </footer>
+    <?php include('footer.php') ?>
+
 </body>
 </html>

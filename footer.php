@@ -23,7 +23,7 @@
                 <li><a href="">adres: rijswijklaan 129</a></li>
                 <li><a href="">Openningstijden ma/za van 13:00/ 21:00</a></li>
                 <li><a href="">meer informatie</a></li>
-                <li><a href="avg.html">privacy</a></li>
+                <li><a href="avg.php">privacy</a></li>
             </ul>
         </section>
         <section class="footerboden">

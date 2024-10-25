@@ -12,19 +12,11 @@
 
   </head>
 <body>
-    <header>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="menu.html">Menu</a>
-            <a href="about us.html">About us</a>
-            <a href="gallery.html">Gallery</a>
-            <a href="vactuure.html">vacatures</a>
-            <a href="drank.html">Drank</a>
-        </nav>     
-    </header>
+    <?php include('header.php') ?>
+
     <main>
-<section class="containerlogo"><img id="logomain" src="image/Sushi-removebg-preview.png" alt=""></section>
-<section class="containermainfoto">
+    <section class="containerlogo"><img id="logomain" src="image/Sushi-removebg-preview.png" alt=""></section>
+    <section class="containermainfoto">
     <section class="cover">
          <h2 class="textcover">WELKOM TO SUSHI VACATURES</h2>
          <p class="textcover2">Welkom bij Sushi, het ultieme sushi-restaurant waar traditie en verfijning samenkomen! </p>
@@ -131,29 +123,8 @@
     
     </main>
   
-    <footer>
-        <section class="footercontainer">
-          <section class="icons">
-              <a href=""><i class="fa-brands fa-facebook"></i></a>
-              <a href=""><i class="fa-brands fa-instagram"></i></a>
-              <a href=""><i class="fa-brands fa-twitter"></i></a>
-              <a href=""><i class="fa-brands fa-google-plus"></i></a>
-          </section>
-          <section class="footernav">
-              <ul>
-                  <li><a href="">adres: rijswijklaan 129</a></li>
-                  <li><a href="">Openningstijden ma/za van 13:00/ 21:00</a></li>
-                  <li><a href="">meer inforamtie</a></li>
-                  <li><a href="avg.html">privecy</a></li>
-                  <li><a href="reserveren.html">Maak hier een reservering aan</a></li>
-              </ul>
-          </section>
-          <section class="footerboden">
-              <p>copyright &copy; 2024;</p>
-          </section>
-        </section>
-          
-      </footer>
+    <?php include('footer.php') ?>
+
 </body>
 </body>
 </html>

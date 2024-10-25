@@ -12,17 +12,25 @@
 <body>
     <header>
     <nav>
-        <a href="index.html">Home</a>
-        <a href="menu.html">Menu</a>
-        <a href="about-us.html">About us</a>
-        <a href="gallery.html">Gallery</a>
+        <a href="index.php">Home</a>
 
         <section class="dropdown">
-        <article class="dropbtn"><a href="reserveren.html">reserveren</a>
+        <article class="dropbtn"><a href="menu.php">Menu</a>
+            <div class="dropdown-content">
+            <a href="drank.php">Drankjes</a>
+        </article>
+        </section>
+
+        <a href="about-us.php">About us</a>
+        <a href="gallery.php">Gallery</a>
+
+        <section class="dropdown">
+        <article class="dropbtn"><a href="reserveren.php">reserveren</a>
             <div class="dropdown-content">
             <a href="arrangementen.php">Arragement</a>
         </article>
         </section>
+        <a href="vacture.php">vacatures</a>
     </nav>
     </header>
 </body>
